@@ -1,0 +1,55 @@
+/* sets background to black*/
+body, html{
+    background-color: black;
+    margin: 0px; 
+    overflow: hidden;
+    font: Palatino;
+    color:white;
+}
+/*sets bounding box on logo animation*/
+#wrapper{
+    margin-top: -9vw;
+    margin-left: 4vw;
+}
+/*sizes animation to be page responsive*/
+#anim {
+    background-color: black;
+    width: 50vw;
+    height: 50vw;
+}
+h1{
+    font-family: 'Aleo';font-size: 22px;
+    font-size: 50px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-left: 40%; 
+}
+/*.lines{
+    width: 100px;
+	height: 5px;
+	background:#515BD4;
+	position: fixed;
+	animation: lineMovement 4s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes lineMovement {
+    0%   {background: #515BD4; left: 0px; top: relative;}
+	100%  {background: #8134AF; left: 10vh; top: relative;}
+    /*100%  {background: #DD2A7B; left: 200px; top: 200px;}
+	75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}
+#line1{
+    padding-top: 10vw;
+}
+ul{
+    color: white;
+    font: Times;
+    font-size: 50px;
+}*/
