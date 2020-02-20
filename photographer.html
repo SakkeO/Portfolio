@@ -5,133 +5,128 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Sakke's Website</title>
+	<!-- <script src="script.js"></script> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
 	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
+
 <body> 
 	<header>
-		<nav>
-			<ul>
-				<li><a href="student.html">Student</a></li>
+		<nav class="topnav" id="myTopnav">
+			<div class="logo">
+				<a href="index.html" class="active">
+					<img class="logo-holder" src="https://i.imgur.com/DDUmuN9.png">
+				</a>
+			</div>
+			<ul id="scroll">
+				<li><a href="designer.html">Designer</a></li>
+				<li class="activethree"><a href="photographer.html">Photographer</a></li>
 				<li><a href="journalist.html">Journalist</a></li>
-				<li><a href="photographer.html">Photographer</a></li>
-				<li><a href="designer.html">Designer</a></h1>
+				<li><a href="student.html">Student</a></li>
 			</ul>
 		</nav>
 	</header>
-	<h1>
+
+	<h1 class="student">
 		Photos
 	</h1>
-	<p>
+	<p class="student">
 		I have always had a passion for photography, I bought my first camera when I was 16 with 
 		my summer earnings. It's a skill I have honed through working on student publications, classes
 		and goofing around with friends. Here is a spread of photos and photo stories that I am 
 		most proud of.
 	</p>
-	<main>
-	<section class="portfolios">
-		<div class="portfolio">
-			<div class="portfolio_image-container">
-				<a href="burlesque.html">
-					<img src="https://drive.google.com/uc?id=1Tk19E-VLrfBhSFbV-XobxEkDQuzv-B7N">
-				</a>
-			</div>
-			<div class="portfolio_content">
-				<p class="portfolio_title text--medium">
-					Burlesque
-				</p>
-				<div class="portfolio_info">
-					<p class="text--medium">NBN Magazine</p>
-					<p class="portfolio_price text--medium">Winter 2019</p>
-				</div>
-			</div>
+<div class="flex-container">	
+	<div class="container">
+		<div class="row">
+		<div class="col">
+			<a href="#">
+				<div class="content">
+					<a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+					  <div class="content-overlay"></div>
+					  <img class="content-image" src="https://i.imgur.com/6m7awiV.jpg">
+					  <div class="content-details fadeIn-top fadeIn-left">
+						<h3>Burlesque</h3>
+						<p id="p1">photo story</p>
+					  </div>
+					</a>
+				  </div>
+			</a>
+	
+		</div>
+		<div class="col">
+			<a href="#">
+				<div class="content">
+					<a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+					  <div class="content-overlay"></div>
+					  <img class="content-image" src="https://i.imgur.com/0DLy0Ix.jpg">
+					  <div class="content-details fadeIn-top fadeIn-right">
+						<h3>Tanzania</h3>
+						<p id="p2">photo collection</p>
+					  </div>
+					</a>
+				  </div>
+			</a>	
+		</div>
 		</div>
 
-		<div class="portfolio">
-			<div class="portfolio_image-container">
-				<a href="ella.html">
-					<img src="https://drive.google.com/uc?id=1jVCnAIqVrPQqQ72CQPFp8qSayVCK358W">
-				</a>
-			</div>
-			<div class="portfolio_content">
-				<p class="portfolio_title text--medium">
-					Ella Josefine Jasso			
-				</p>
-				<div class="portfolio_info">
-					<p class="text--medium">Photojournalism Class</p>
-					<p class="portfolio_price text--medium">Fall 2018</p>
-				</div>
-			</div>
-		</div>
 
-		<div class="portfolio">
-			<div class="portfolio_image-container"> 
-				<a href="rugby.html">
-					<img src="https://drive.google.com/uc?id=1Ua5gg69xUMyVid7U2203k4OPHxvlVE0k">
+		<div class="row">
+			<div class="col">
+				<a href="#">
+					<div class="content">
+						<a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						  <div class="content-overlay"></div>
+						  <img class="content-image" src="https://i.imgur.com/xc22qoJ.jpg">
+						  <div class="content-details fadeIn-bottom fadeIn-left">
+							<h3>OverTurn</h3>
+							<p id="p3">bed guardrail for child with muscular dystrophy</p>
+						  </div>
+						</a>
+					  </div>
 				</a>
 			</div>
-			<div class="portfolio_content">
-				<p class="portfolio_title text--medium">
-					Rugby
-				</p>
-				<div class="portfolio_info">
-					<p class="text--medium">Photojournalism Class</p>
-					<p class="portfolio_price text--medium">Fall 2018</p>
-				</div>
-			</div>
-		</div>
 
-		<div class="portfolio">
-			<div class="portfolio_image-container">
-				<a href="exes.html">
-					<img src="https://drive.google.com/uc?id=1YXJu1P4X3hoInfBVwc6nCqvIMkNJXwj7">
+			<div class="col">
+				<a href="#">
+					<div class="content">
+						<a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						  <div class="content-overlay"></div>
+						  <img class="content-image" src="https://drive.google.com/uc?id=1pq0p1AcMTk0t320yi2rCZZvN672xvwkM">
+						  <div class="content-details fadeIn-bottom fadeIn-right">
+							<h3>Trigon</h3>
+							<p id="p4">portable, modular coffee experience</p>
+						  </div>
+						</a>
+					  </div>
 				</a>
 			</div>
-			<div class="portfolio_content">
-				<p class="portfolio_title text--medium">
-					Exes
-				</p>
-				<div class="portfolio_info">
-					<p class="text--medium">NBN Magazine</p>
-					<p class="portfolio_price text--medium">Spring 2018</p>
-				</div>
 			</div>
 		</div>
+	</div>
+</div>
+	<div class="break">
+		<p class="about2"> 
+			Let's get in touch!
+				<button class="button">Contact</button>
+	</div>
 
-		<div class="portfolio">
-			<div class="portfolio_image-container">
-				<a href="tanzania.html">
-					<img src="https://drive.google.com/uc?id=19O2mUfMUT5e14IXc0R0ZhEL9g-2yhZML">
-				</a>
-			</div>
-			<div class="portfolio_content">
-				<p class="portfolio_title text--medium">
-					Tanzania
-				</p>
-				<div class="portfolio_info">
-					<p class="text--medium">Passion Project</p>
-					<p class="portfolio_price text--medium">Summer 2015</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="portfolio">
-			<div class="portfolio_image-container">
-				<a href="miscellaneous.html">
-					<img src="https://drive.google.com/uc?id=1jmDVTyps7iBoLsNcdY43Sz-GydolM60G">
-				</a>
-			</div>
-			<div class="portfolio_content">
-				<p class="portfolio_title text--medium">
-					Miscellaneous
-				</p>
-				<div class="portfolio_info">
-					<p class="text--medium">Photo Edits</p>
-					<p class="portfolio_price text--medium">Various Dates</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	</main>
-</body>
+	<footer>
+		<div class="footer">
+			<p>
+				<a id="link1" href="mailto:sakkeoverlund2021@u.northwestern.edu">sakkeoverlund2021@u.northwestern.edu</a>
+			</p>
+			<p>
+				<a id="link2" href="http://www.linkedin.com/in/sakkeoverlund" target="_blank">LinkedIn</a>
+			</p>
+		</div>   
+	 </footer>
+</body> 
+<script src="script.js"></script>
+<script src="scroll.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

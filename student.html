@@ -5,56 +5,78 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Sakke's Website</title>
+	<script src="script.js"></script>
+	<script src="scroll.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 </head>
 
 <body> 
 	<header>
-		<nav>
-			<ul>
-				<li><a href="student.html">Student</a></li>
-				<li><a href="journalist.html">Journalist</a></li>
+		<nav class="topnav" id="myTopnav">
+			<div class="logo">
+				<a href="index.html" class="active">
+					<img class="logo-holder" src="https://i.imgur.com/DDUmuN9.png">
+				</a>
+			</div>
+			<ul id="scroll">
+				<li><a href="designer.html">Designer</a></li>
 				<li><a href="photographer.html">Photographer</a></li>
-				<li><a href="designer.html">Designer</a></h1>
+				<li><a href="journalist.html">Journalist</a></li>
+				<li class="active"><a href="student.html">Student</a></li>
 			</ul>
 		</nav>
 	</header>
-	<h1>Hello!</h1>
-		<p>My name is Sakke Overlund and I'm a Junior at Northwestern
+
+	<h1 class="student">
+		<span id= "centering">Hello!
+			<div id="bm"></div>
+			<script src= "HandWave.js"></script>
+		
+		</span>	
+	</h1>
+		<div id="travel" style='float:left;'></div>
+			<script src= "Travel.js"></script>
+		<p class="student">My name is Sakke Overlund and I'm a Junior at Northwestern
 		University studying journalism, psychology, and design. Originally 
 		from Seattle, I will be in San Francisco for a design program this Winter 
 		Quarter (January-March), but I spend most of my time in the Chicago area 
 		for school.</p>
-		<p>What drives me is telling powerful stories. However, in order to accomplish 
+		<p class="student">
+		What drives me is telling powerful stories. However, in order to accomplish 
 		this in the ever-changing digital age requires powerful design as well. I have 
 		seen first hand how journalism can affect communities and I want to continue honing
-		my abilities in writing, imagery, and design, to deliver accurate narratives and services. 
+		my abilities in writing, images, and design to deliver accurate narratives and services. 
 		</p>
-		<p>In my free time I enjoy tackling people on the rugby pitch, capturing photos
-		of my surroundings, dreaming about more sustainable futures, and testing my binge-watching abilities.
+		<div id="camera" style='float:right;'></div>
+			<script src= "CameraAnim"></script>
+		<p class="student">In my free time I enjoy capturing photos of my surroundings, 
+		tackling people on the rugby pitch, dreaming about more sustainable futures, 
+		and testing my binge-watching abilities.
 		</p>
+		<script src= "script.js"></script>
+	
 	<section class="resume">
 		<div class="row">
 			<div class="column">
 				<h2>Resume</h2>
-				<p>A one stop shop to get to know me on paper.</p>
+				<p class="student">A one-stop-shop to get to know me on paper</p>
 				<section>
 					<div class="resume-holder">
 						<a href="#img1">
 							<img class="resize" src="https://drive.google.com/uc?id=1D42mO_5TcEb2w9HFd_aqND0uM8tJyn4Q">
 						</a>
 					</div>
-						<a href="#" class="lightbox" id="img1">
+						<a href="#_" class="lightbox" id="img1">
 							<img src="https://drive.google.com/uc?id=1D42mO_5TcEb2w9HFd_aqND0uM8tJyn4Q">
 						</a>
 				</section>
 			</div>
 			<div class="column">
 				<h2>Contact Me</h2>
-				<p>I'm currently looking for a summer internships!</p>	
+				<p class="student">I'm currently looking for summer internships!</pclass="student">	
 			</div>
 			<div class="column">
 				<form action="/action_page.php">
@@ -69,6 +91,5 @@
 			</div>
 		</div>
 	</section>
-
 </body>
 </html>
