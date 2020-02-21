@@ -265,6 +265,7 @@ img.logo-holder{
 nav.topnav li:hover a{
     color:transparent;
 }
+
 nav.topnav li.active a{
     color: rgba(239, 255, 63, 0.865);
 }
@@ -274,6 +275,10 @@ nav.topnav li.activetwo a{
 nav.topnav li.activethree a{
     color: rgba(35, 145, 255, 0.865);
 }
+nav.topnav li.activefour a{
+    color: rgba(255, 0, 247, 0.865);
+}
+
 nav.topnav li a {
     background-image: linear-gradient(to right, #2391FF, #FF00F6);
     -webkit-background-clip: text;
@@ -305,7 +310,7 @@ nav.topnav li+li+li+li a{
     height: auto;
     transform: translateY(-50%);
     margin-left: -70px;
-    margin-bottom: -200px;
+    margin-bottom: -350px;
     margin-top: 30px;
 }
 @media screen and (max-width: 915px) {
@@ -380,10 +385,12 @@ p.student{
     align-items: center;
     background-color: black;
  }
+ .row {
+    opacity: 0;
+ }
 .col {
     flex: 50%;
     padding: 0 4px;
-    margin: 20px 0;
   }
   
 .col img {
@@ -537,11 +544,20 @@ p.student{
     margin: 40px 0;
     border-radius: 50px;
   }
-  .button:hover{
+  #buttonone:hover{
+    background-color: rgba(101, 255, 101, 0.44);
+    background-image: radial-gradient(#1DF299, rgba(29, 242, 153, 0));
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
+  }
+  #buttontwo:hover{
     background-color: rgba(101, 183, 255, 0.44);
     background-image: radial-gradient(#2391FF, rgba(35, 145, 255, 0));
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
-
+  }
+  #buttonthree:hover{
+    background-color: rgba(242, 101, 255, 0.44);
+    background-image: radial-gradient(#FF00F6, rgba(255, 0, 247, 0));
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
   }
 
   .footer{
@@ -557,19 +573,34 @@ p.student{
       background-color: black;     
   }
 
-  #link1, #link2{
+  #link1, #link2, #link3, #link4, #link5, #link6{
     color: white !important;
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
   }
-
   #link1:hover{
     text-decoration: underline;
-    text-decoration-color: #2391FF;
+    text-decoration-color: #1DF299;
   }
   #link2:hover{
     text-decoration: underline;
+    text-decoration-color: #1DF299;
+  }
+  #link3:hover{
+    text-decoration: underline;
     text-decoration-color: #2391FF;
+  }
+  #link4:hover{
+    text-decoration: underline;
+    text-decoration-color: #2391FF;
+  }
+  #link5:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF00F6;
+  }
+  #link6:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF00F6;
   }
 
 
@@ -582,13 +613,13 @@ a.backbutton{
     font-size: 100px;
 }
 /*student section*/
-.column{
+.columnstudent{
     float: left;
     width: 50%;
     padding: 10px;
   } 
 /* Clear floats after the columns */
-.row:after{
+.rowstudent:after{
     content: "";
     display: table;
     clear: both;
@@ -680,8 +711,7 @@ input[type=text], textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #4E2A84;
-    color: white;
+    background-color: #EFFF3F;
     transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
   }
   
