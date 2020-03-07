@@ -170,6 +170,8 @@ li+li+li+li a{
     nav.homepage {
         display: flex;
         justify-content: center;
+        width: 30%;
+        margin: auto;
     }
     nav.homepage ul {
         display: flex;
@@ -233,14 +235,17 @@ nav.topnav {
     width: 100%;
     z-index: 1;
     margin-bottom: -100px;
-    transition: top 0.3s ease-in-out;
+    transition: top 0.3s ease-in-out; /* Transition effect when sliding down (and up) */
 }
 nav.topnav ul {
     list-style-type: none;
-    margin: 0;
-    padding-right: 20px;
     overflow: hidden;
     background-image: linear-gradient(black, rgba(0, 0, 0, 0.043));
+    position: fixed;
+    right: 10px;
+    margin-top: -20px;
+    top: 17px;
+    transition: top 0.3s ease-in-out; /* Transition effect when sliding down (and up) */
 }
 nav.topnav li {
     float: right;
@@ -260,7 +265,7 @@ img.logo-holder{
     width: 275px;
     height: auto;
     margin-bottom: -60px;
-    background-image: linear-gradient(to bottom right, black, rgba(0, 0, 0, 0.043))
+    background-image: linear-gradient(to bottom right, black, rgba(0, 0, 0, 0.043));
 }
 nav.topnav li:hover a{
     color:transparent;
@@ -306,21 +311,26 @@ nav.topnav li+li+li+li a{
     height: auto;
 }
 #camera {
-    width: 400px;
-    height: auto;
-    transform: translateY(-50%);
-    margin-left: -70px;
-    margin-bottom: -350px;
-    margin-top: 30px;
+    width: 200px;
+    height: 100px;
+    margin-right: 20%;
+    position: relative;
 }
+#camera > svg{
+    transform: translate(-25%,-25%) !important;
+    position: absolute;
+    height: 200% !important;
+    width: 200% !important;
+}
+
 @media screen and (max-width: 915px) {
     nav.topnav ul{
         position: fixed;
         display: flex;
         flex-direction: column-reverse;
         padding-top: 13px;
-        top: 0px;
-        right: 0;
+        top: 17px;
+        right: 10px;
         transition: top 0.3s ease-in-out; /* Transition effect when sliding down (and up) */
     }
     nav.topnav li a{
@@ -544,6 +554,10 @@ p.student{
     margin: 40px 0;
     border-radius: 50px;
   }
+  a.button:active, .button:hover, .button:visited { 
+      color: white;
+      text-decoration: none;
+  }
   #buttonone:hover{
     background-color: rgba(101, 255, 101, 0.44);
     background-image: radial-gradient(#1DF299, rgba(29, 242, 153, 0));
@@ -618,6 +632,22 @@ a.backbutton{
     width: 50%;
     padding: 10px;
   } 
+#square {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 18px;
+}
+#square a {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 2.5em;
+    padding: 0px;
+    
+}
 /* Clear floats after the columns */
 .rowstudent:after{
     content: "";
@@ -636,9 +666,14 @@ img.resize:hover{
     opacity: .5;
 }
 @media screen and (max-width: 915px) {
-    .column{
+    .columnstudent{
       width: 100%;
       margin-top: 0;
+    }
+    #square {
+        flex-direction: row;
+        padding: 0 20%;
+        justify-content: space-around; 
     }
     input[type=submit]{
         margin-left: 25%;
@@ -675,43 +710,132 @@ img.resize:hover{
 /** Unhide lightbox **/
     display: block;
 }
-label{
-    font-family: 'Open Sans', sans-serif;
+
+
+  
+  .fa {
+    padding: 25px;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    display: flex;  
+    }
+  .fa-envelope-open{
+    background: white;
+    color: black; 
+  }
+  .fa-twitter {
+    background: white;
+    color: black;  
+  }
+  .fa-linkedin {
+    background: white;
+    color: black; 
+  }
+  .fa-instagram {
+    background: white;
+    color: black; 
+  }
+  .fa-envelope-open:hover {
+    background-color:  rgba(255, 255, 255, 0.865);
+    background-image: radial-gradient( #EFFF3F, rgba(239, 255, 63, 0));
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
+   }
+   .fa-instagram:hover {
+    background-color: rgba(255, 255, 255, 0.735);
+    background-image: radial-gradient(#FF00F6, rgba(255, 0, 247, 0));
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
+   }
+   .fa-linkedin:hover {
+    background-color: rgba(254, 254, 254, 0.865);
+    background-image: radial-gradient(#1DF299, rgba(29, 242, 153, 0));
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
+   }
+   .fa-twitter:hover {
+    background-color: rgba(255, 255, 255, 0.865);
+    background-image: radial-gradient(#2391FF, rgba(35, 145, 255, 0));
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
+   }
+
+.popup-container{
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.15s;
+    padding: 50px;
 }
-input[type=text], textarea {
-    font-family: 'Open Sans', sans-serif;
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 4px; /* Add a top margin */
-    margin-bottom: 10px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  input[type=text]:focus {
-    outline: none;
-    border: 2px solid #4E2A84;
-  }
-  textarea:focus {
-    outline: none;
-    border: 2px solid #4E2A84;
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    font-family: 'Open Sans', sans-serif;
-    background-color: white;
-    color: black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+.popup-container.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+.popup{
+    margin: 10% auto 0;
+    border-radius: 5px;
+    background-color: black;
+    max-width: 80%;
+    transition: margin-top 0.15s;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.popup-container.active .popup{
+    margin: 0 auto 0;
+
+}
+.popup-image{
+    margin-top: 20px;
+    background-color: black;
+    background-image: url(https://i.imgur.com/6m7awiV.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: auto;
+    transition: margin-top 0.15s, background 0.4s ease-in-out;
+}
+h3.portfolio-popup{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -10px;
+}
+
+.popup hr{
+    border-color: rgb(120, 120, 120);
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+p.portfolio-popup{
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+}
+/* carousel pointers */
+#forward {
+    font-size: 3em;
+    position: absolute;
+    line-height: 100%;
+    top: 50%;
+    right: 10%;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #EFFF3F;
-    transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
-  }
-  
+}
+#backward {
+    font-size: 3em;
+    position: absolute;
+    line-height: 100%;
+    top: 50%;
+    left: 10%;
+    cursor: pointer;
+}
+body.noscroll {
+    overflow-y: hidden;
+}

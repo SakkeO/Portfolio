@@ -26,3 +26,7 @@ $(function(){  // $(document).ready shorthand
       });
       
   });
+
+  window.addEventListener("DOMContentLoaded", () => {
+    document.querySelector(".row").style.opacity = "0.2";
+  });
