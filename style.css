@@ -769,9 +769,9 @@ img.resize:hover{
     left: 0;
     right: 0;
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.8);
     transition: opacity 0.15s;
-    padding: 50px;
+    padding: 50px;    
 }
 .popup-container.active{
     opacity: 1;
@@ -785,6 +785,9 @@ img.resize:hover{
     transition: margin-top 0.15s;
     text-align: center;
     padding-bottom: 100px;
+    border: 1px solid #2c2e30;
+    z-index: 10002;
+    overflow-y: scroll !important;
 }
 .popup-container.active .popup{
     margin: 0 auto 0;
@@ -815,7 +818,7 @@ h3.portfolio-popup{
 }
 p.portfolio-popup{
     font-family: 'Montserrat', sans-serif;
-    width: 75%;
+    width: 60%;
     margin: auto;
     margin-top: 10px;
 }

@@ -1,21 +1,12 @@
-document.getElementById("burlesque").addEventListener("click", e => {
-    console.log("hehe")
-    document.getElementById("fun").classList.add("active");
-    document.body.classList.add("noscroll");
-});
-
-document.getElementById("fun").addEventListener("click", e => {
-    console.log("hehe")
-    if(e.target!== document.getElementById("fun")) {
-        return;
-    }
-    document.getElementById("fun").classList.remove("active");
-    document.body.classList.remove("noscroll");
-});
+const domCarousel = document.getElementsByClassName("carousel");
 
 const carousels = {
     burlesque: {
         slides: [
+            {
+                img: "https://i.imgur.com/6m7awiV.jpg",
+                text: "These are the outtakes from a photo story I did for North by Northwestern magazine. The goal of the story was to feature the POC student organization B. Burlesque. For many of the members seeing themselves reflected as beautiful and empowered is a rarity, so this space becomes cherished as a place of upliftment. One of the challenges of this peice was getting access because many were uncomfortable with such photos being printed in a publication so many people would see. My workaround was to gain trust and feature shots of mostly hands and faces to show their sensuality."
+            },
             {
                 img: "https://i.imgur.com/Y4YALpr.jpg",
                 text: "lol isnt this cute"
@@ -35,6 +26,10 @@ const carousels = {
             {
                 img: "https://i.imgur.com/uyP8xDr.jpg",
                 text: "haha"
+            },
+            {
+                img: "https://i.imgur.com/B3xCBYV.jpg",
+                text: "hehe"
             }
         ],
         index: 0
@@ -54,8 +49,17 @@ const carousels = {
     }
 }
 
-
-let i= 0;
+const toggleCarousel = name => {
+    const carousel = document.querySelector(`[data-carousel-name='${name}']`);
+    const popupContainer = carousel.parentElement.parentElement;
+    popupContainer.classList.toggle('active');
+    if(popupContainer.classList.contains("active")){
+        document.body.classList.add("noscroll");
+    }
+    else{
+        document.body.classList.remove("noscroll");
+    }
+};
 
 const render = name => {
     const carousel = carousels[name];
@@ -80,7 +84,22 @@ const dec = name => {
     render(name);
 };
 
-const fwd=document.getElementById("forward");
-fwd.addEventListener("click", inc.bind(null, "burlesque"));
-const bck=document.getElementById("backward");
-bck.addEventListener("click", dec.bind(null, "burlesque"));
+const initPopup = el => {
+    const container = el.parentElement.parentElement;
+    container.addEventListener("click", e => {
+        console.log("hehe")
+        if(e.target!== container) {
+            return;
+        }
+       toggleCarousel(el.dataset.carouselName);
+    });
+
+    const fwd = el.firstElementChild;
+    fwd.addEventListener("click", inc.bind(null, el.dataset.carouselName));
+    const bck= fwd.nextElementSibling;
+    bck.addEventListener("click", dec.bind(null, el.dataset.carouselName));
+
+    render(el.dataset.carouselName);
+}
+
+Array.from(domCarousel).forEach(initPopup);
