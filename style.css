@@ -768,7 +768,8 @@ img.resize:hover{
     top: 0;
     left: 0;
     right: 0;
-    min-height: 100vh;
+    height: 100vh;
+    overflow: scroll;
     background-color: rgba(0, 0, 0, 0.8);
     transition: opacity 0.15s;
     padding: 50px;    
@@ -784,10 +785,10 @@ img.resize:hover{
     max-width: 80%;
     transition: margin-top 0.15s;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     border: 1px solid #2c2e30;
     z-index: 10002;
-    overflow-y: scroll !important;
+    overflow-y: scroll;
 }
 .popup-container.active .popup{
     margin: 0 auto 0;
@@ -802,14 +803,20 @@ img.resize:hover{
     background-repeat: no-repeat;
     height: 50vh;
     width: auto;
-    transition: margin-top 0.15s, background 0.4s ease-in-out;
 }
 h3.portfolio-popup{
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: -10px;
 }
+h2.portfolio-popup{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #2391FF;
 
+}
 .popup hr{
     border-color: rgb(120, 120, 120);
     width: 80%;
@@ -820,11 +827,12 @@ p.portfolio-popup{
     font-family: 'Montserrat', sans-serif;
     width: 60%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;;
 }
 /* carousel pointers */
 #forward {
-    font-size: 3em;
+    font-size: 2.5em;
     position: absolute;
     line-height: 100%;
     top: 50%;
@@ -832,7 +840,7 @@ p.portfolio-popup{
     cursor: pointer;
 }
 #backward {
-    font-size: 3em;
+    font-size: 2.5em;
     position: absolute;
     line-height: 100%;
     top: 50%;
