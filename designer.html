@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Sakke's Website</title>
-	<!-- <script src="script.js"></script> -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,6 +14,28 @@
 </head>
 
 <body> 
+	<div class="popup-container">
+		<div class="popup">
+			<div class="popup-image carousel" data-carousel-name="NBN">
+				<div id="forward">
+					⤅
+				</div>
+				<div id="backward">
+					⬶
+				</div>	
+			</div>
+			<div class="popup-content">
+				<hr>
+				<h3 class="portfolio-popup">
+					North by Northwestern
+				</h3>
+				<hr>
+				<p class="portfolio-popup">
+				</p>
+			</div>
+		</div>
+	</div>
+
 	<header>
 		<nav class="topnav" id="myTopnav">
 			<div class="logo">
@@ -44,7 +65,7 @@
 		<div class="col">
 			<a href="#">
 				<div class="content" id="monster">
-					<a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+					<a href="javascript:toggleCarousel('NBN')">
 					  <div class="content-overlay"></div>
 					  <img class="content-image" src="https://i.imgur.com/UzYWpNb.png">
 					  <div class="content-details fadeIn-top fadeIn-left">
@@ -126,8 +147,7 @@
 					<div class="content">
 						<a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
 						  <div class="content-overlay"></div>
-						  <video src="https://www.youtube.com/embed/BLwXh0y5BGc"></video>
-							  </object>
+						  <video src="/Animations/Elevator.mp4" preload="auto" autoplay loop></video>
 						 	<div class="content-details fadeIn-top fadeIn-right">
 							<h3>Animations</h3>
 							<p id="p3"></p>
@@ -230,5 +250,6 @@
 <script src="fadeIn.js"></script>
 <script src="script.js"></script>
 <script src="scroll.js"></script>
+<script src="popup.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

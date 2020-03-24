@@ -473,6 +473,27 @@ const carousels = {
             }
         ],
         index: 0
+    },
+    NBN: {
+        slides: [
+            {
+                img: "https://i.imgur.com/UzYWpNb.png",
+                text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
+            },
+            {
+                img: "https://i.imgur.com/eUQMBN0.png",
+                text: "This photo edit was made for a story I wrote for Blackboard magazine on the rap duo FreePlanet. The first photo I made a few days before and thought it would represent their style well."
+            },
+            {
+                img: "https://i.imgur.com/C7tuMmo.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            },
+            {
+                img: "https://i.imgur.com/0mcEuVg.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            }
+        ],
+        index: 0
     }
 }
 
