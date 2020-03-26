@@ -850,10 +850,18 @@ p.portfolio-popup{
 body.noscroll {
     overflow-y: hidden;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 97b205fe24809efcba23ea4dd2c20684446d0405
 .design-vid {
     object-fit: cover;
     width: 100%;
     margin-top: 8px;
     height: 295px;
     margin-bottom: -6px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 97b205fe24809efcba23ea4dd2c20684446d0405
