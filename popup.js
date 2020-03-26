@@ -253,7 +253,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/89bXE8b.jpg",
-                text: ""
+                text: "As photodirector for Blackboard magazine I led the direction for our Modern Panthers magazine edition. Here are the outtakes from the photoshoots. I tried to capture the empowerment of Black youth in the 21st century."
             },
             {
                 img: "https://i.imgur.com/dVKGLZy.jpg",
@@ -478,6 +478,199 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/UzYWpNb.png",
+                text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
+            },
+            {
+                img: "https://i.imgur.com/eUQMBN0.png",
+                text: "A single page Q&A spread. Josh Mckenzie is known as that one fun administrative person on campus, so I wanted that to reflect in the style. The header style is based off of the TV show it alludes to."
+            },
+            {
+                img: "https://i.imgur.com/QSwZDJe.png",
+                text: "A story on the freedom of expression professors can excercise under Northwestern's administration. Professors feel as if they have to speak with caution and my goal was to emulate that feeling of caution and fear through the colors and illustrations embedded into the single page spread."
+            },
+            {
+                img: "https://i.imgur.com/DI8ghy0.jpg",
+                text: "My first feature spread. This story was about the ending of SafeRide a ride sharing program which was free to students during the evenings. This one hit close to home because for over two years my job was a driver and dispatcher for SafeRide. The program disappearing was what I wanted to as a running theme throughout the spread so there is a photoedit of the car dispersing into smoke as well as smoke pull quotes."
+            }
+        ],
+        index: 0
+    },
+    SAM: {
+        slides: [
+            {
+                img: "https://i.imgur.com/4JcrufV.png",
+                text: "I started a job as a graphic designer at SAM last fall. SAM's clients are basically any Northwestern entity who is looking to create marketing content targeting Northwestern students. My main duties are to manage all communications between the Norris Student Center and SAM as well as create weekly instagram content for different events occuring on campus. Here is a print campaign to advertise a winter carnival event to increase student community at Norris."
+            },
+            {
+                img: "https://i.imgur.com/jpHEhvd.jpg",
+                text: "Here is a collection of some of my favorite quick weekly Instagram stories I've made for SAM to adverstise campus events."
+            }
+        ],
+        index: 0
+    },
+    CARE: {
+        slides: [
+            {
+                img: "https://i.imgur.com/XBeDssQ.png",
+                text: "I worked at CARE for a summer internship my Sophmore year. CARE is a Northwestern Department which works with students to address sexual violence and promote healthy sexuality. One of the tasks I ended up doing was copy editing and redesigning old fliers since most were out of date."
+            },
+            {
+                img: "https://i.imgur.com/u4MNkvV.png",
+                text: "This is the before and after of a poster for a trauma and sexual violence therapy group created by CARE. I wanted to make a poster that would catch a passerby's eye and emphasize the focus of the group's goal: To Thrive."
+            },
+            {
+                img: "https://i.imgur.com/u69eiQ1.png",
+                text: "CARE has a couple resource handouts which had information that was out of date. My original task was to research and copyedit the handouts, but I decided to also consolidate the information and organize it with a few design principles to make the handout more accessible. This first one is for sexual health resources."
+            },
+            {
+                img: "https://i.imgur.com/MNm5kW9.png",
+                text: "This handout is for sexual violence, relationship violence, and stalking resources. The first handouts were just microsoft documents and were difficult to navigate visually. Now the handout has some visual cues as to what its for and invdividual resources are easier to find."
+            },
+            {
+                img: "https://i.imgur.com/5RU7KM8.png",
+                text: "Before I left I had the chance to redesign CARE's mission poster. I wanted to keep much of the same elements, but make it stand out a bit more so it can pop on a bulletin board with dozens of other fliers."
+            }
+        ],
+        index: 0
+    },
+    CAL: {
+        slides: [
+            {
+                img: "https://i.imgur.com/h2bGIDZ.jpg",
+                text: "This winter I had the chance to have a 5 week internship at CalMatters. While working there, one other intern, Stephanie Zhu, and I worked with their graphics team to create posters and social media assets."
+            },
+            {
+                img: "https://i.imgur.com/JhhFKOl.jpg",
+                text: "A poster created for CalMatters' podcast Force of Law which was holding a live event to discuss California's police using deadly force."
+            },
+            {
+                img: "https://i.imgur.com/h2bGIDZ.jpg",
+                text: "CalMatters is looking to expand its audience and wants to utilize social media to bring in new consumers. They wanted social media assets for Instagram and Twitter so Stephanie and I created a style guide for them to use so they can have a cohesive social media presence. The following slides are sections out of the style guide, but the rest, of course, is for CalMatters."
+            },
+            {
+                img: "https://i.imgur.com/LPupNtL.jpg",
+                text: ""
+            },
+            {
+                img: "https://i.imgur.com/Ob5P1I1.jpg",
+                text: ""
+            },
+            {
+                img: "https://i.imgur.com/8qkkP6G.jpg",
+                text: ""
+            }
+        ],
+        index: 0
+    },
+    NURJ: {
+        slides: [
+            {
+                img: "https://i.imgur.com/UuFJzik.png",
+                text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
+            },
+            {
+                img: "https://i.imgur.com/eUQMBN0.png",
+                text: "This photo edit was made for a story I wrote for Blackboard magazine on the rap duo FreePlanet. The first photo I made a few days before and thought it would represent their style well."
+            },
+            {
+                img: "https://i.imgur.com/C7tuMmo.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            },
+            {
+                img: "https://i.imgur.com/0mcEuVg.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            }
+        ],
+        index: 0
+    },
+    Anim: {
+        slides: [
+            {
+                img: "https://i.imgur.com/h2bGIDZ.jpg",
+                text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
+            },
+            {
+                img: "https://i.imgur.com/eUQMBN0.png",
+                text: "This photo edit was made for a story I wrote for Blackboard magazine on the rap duo FreePlanet. The first photo I made a few days before and thought it would represent their style well."
+            },
+            {
+                img: "https://i.imgur.com/C7tuMmo.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            },
+            {
+                img: "https://i.imgur.com/0mcEuVg.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            }
+        ],
+        index: 0
+    },
+    Leftovr: {
+        slides: [
+            {
+                img: "https://i.imgur.com/33hpB2k.png",
+                text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
+            },
+            {
+                img: "https://i.imgur.com/eUQMBN0.png",
+                text: "This photo edit was made for a story I wrote for Blackboard magazine on the rap duo FreePlanet. The first photo I made a few days before and thought it would represent their style well."
+            },
+            {
+                img: "https://i.imgur.com/C7tuMmo.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            },
+            {
+                img: "https://i.imgur.com/0mcEuVg.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            }
+        ],
+        index: 0
+    },
+    Geez: {
+        slides: [
+            {
+                img: "https://i.imgur.com/esLFPiR.png",
+                text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
+            },
+            {
+                img: "https://i.imgur.com/eUQMBN0.png",
+                text: "This photo edit was made for a story I wrote for Blackboard magazine on the rap duo FreePlanet. The first photo I made a few days before and thought it would represent their style well."
+            },
+            {
+                img: "https://i.imgur.com/C7tuMmo.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            },
+            {
+                img: "https://i.imgur.com/0mcEuVg.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            }
+        ],
+        index: 0
+    },
+    Wild: {
+        slides: [
+            {
+                img: "https://i.imgur.com/9a8H0qS.png",
+                text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
+            },
+            {
+                img: "https://i.imgur.com/eUQMBN0.png",
+                text: "This photo edit was made for a story I wrote for Blackboard magazine on the rap duo FreePlanet. The first photo I made a few days before and thought it would represent their style well."
+            },
+            {
+                img: "https://i.imgur.com/C7tuMmo.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            },
+            {
+                img: "https://i.imgur.com/0mcEuVg.png",
+                text: "The before and after. Made just for fun to practice some photoshop skills."
+            }
+        ],
+        index: 0
+    },
+    Trunk: {
+        slides: [
+            {
+                img: "https://i.imgur.com/yiXF9BC.jpg",
                 text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
             },
             {
