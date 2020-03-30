@@ -1,6 +1,42 @@
 const domCarousel = document.getElementsByClassName("carousel");
 
 const carousels = {
+    CFW: {
+        slides: [
+            {
+                img: "https://i.imgur.com/BbKGLiX.jpg",
+                text: "This is a multimedia story I wrote about the Chicago's rise as a global destination for fashion. I talked to designers, models, industry professional and more to create an immersive story on the cities long forgotten fashion industry."
+            }
+        ],
+        index: 0
+    },
+    NUhelp: {
+        slides: [
+            {
+                img: "https://i.imgur.com/LHEqOAO.png",
+                text: "A feature story written for class on Northwestern's attempts to help its students with rising mental health concerns.."
+            }
+        ],
+        index: 0
+    },
+    mari: {
+        slides: [
+            {
+                img: "https://i.imgur.com/pL813an.jpg",
+                text: "My first story ever published. Every quarter Blackboard, Northwestern’s only Black interest publication, features a one or two students from the community in a profile piece. I was inspired by Mari’s activist spirit and wanted her story to be known campus wide. /n Unfortunately the website it was published on is down so the link is currently not working."
+            }
+        ],
+        index: 0
+    },
+    freeplanet: {
+        slides: [
+            {
+                img: "https://i.imgur.com/SAUQ3gT.jpg",
+                text: "A Q&A story I wrote for Blackboard magazine's website highlighting Northwestern students Caleb and Robel Negussie, the twins from the Twin Cities, who are an up-and-coming rap duo. /n Unfortunately the website it was published on is currently down so here it is on Medium instead."
+            }
+        ],
+        index: 0
+    },
     burlesque: {
         slides: [
             {
@@ -491,6 +527,10 @@ const carousels = {
             {
                 img: "https://i.imgur.com/DI8ghy0.jpg",
                 text: "My first feature spread. This story was about the ending of SafeRide a ride sharing program which was free to students during the evenings. This one hit close to home because for over two years my job was a driver and dispatcher for SafeRide. The program disappearing was what I wanted to as a running theme throughout the spread so there is a photoedit of the car dispersing into smoke as well as smoke pull quotes."
+            },
+            {
+                img: "https://i.imgur.com/fasPCzv.jpg",
+                text: "A photo story I had the pleasure to shoot, design and write. Having the full creative control over a story is rare, but I had a lot of fun putting it all together."
             }
         ],
         index: 0

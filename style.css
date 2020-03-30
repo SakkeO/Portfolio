@@ -797,12 +797,13 @@ img.resize:hover{
 .popup-image{
     margin-top: 20px;
     background-color: black;
-    background-image: url(https://i.imgur.com/6m7awiV.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 50vh;
     width: auto;
+    transition-delay: 1s;
+    transition: margin-top .25s;
 }
 h3.portfolio-popup{
     margin-top: 10px;
@@ -815,7 +816,9 @@ h2.portfolio-popup{
     font-size: 16px;
     cursor: pointer;
     color: #2391FF;
-
+}
+h4.portfolio-popup{
+    margin-top: 10px;
 }
 .popup hr{
     border-color: rgb(120, 120, 120);
@@ -847,21 +850,35 @@ p.portfolio-popup{
     left: 10%;
     cursor: pointer;
 }
+#forward2 {
+    font-size: 2.5em;
+    position: absolute;
+    line-height: 100%;
+    top: 50%;
+    right: 10%;
+}
+#backward2 {
+    font-size: 2.5em;
+    position: absolute;
+    line-height: 100%;
+    top: 50%;
+    left: 10%;
+}
 body.noscroll {
     overflow-y: hidden;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 97b205fe24809efcba23ea4dd2c20684446d0405
 .design-vid {
     object-fit: cover;
     width: 100%;
     margin-top: 8px;
     height: 295px;
     margin-bottom: -6px;
-<<<<<<< HEAD
 }
-=======
+a.journalist {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #1DF299;
+    margin-top: 20px;
 }
->>>>>>> 97b205fe24809efcba23ea4dd2c20684446d0405
