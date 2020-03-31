@@ -23,7 +23,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/pL813an.jpg",
-                text: "My first story ever published. Every quarter Blackboard, Northwestern’s only Black interest publication, features a one or two students from the community in a profile piece. I was inspired by Mari’s activist spirit and wanted her story to be known campus wide. /n Unfortunately the website it was published on is down so the link is currently not working."
+                text: "My first story ever published. Every quarter Blackboard magazine, Northwestern’s only Black interest publication, features a one or two students from the community in a profile piece. I was inspired by Mari’s activist spirit and wanted her story to be known campus wide. Unfortunately the website it was published on is down so the link is currently not working."
             }
         ],
         index: 0
@@ -32,7 +32,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/SAUQ3gT.jpg",
-                text: "A Q&A story I wrote for Blackboard magazine's website highlighting Northwestern students Caleb and Robel Negussie, the twins from the Twin Cities, who are an up-and-coming rap duo. /n Unfortunately the website it was published on is currently down so here it is on Medium instead."
+                text: "A Q&A story I wrote for Blackboard magazine's website highlighting Northwestern students Caleb and Robel Negussie, the twins from the Twin Cities, who are an up-and-coming rap duo. Unfortunately the website it was published on is currently down so here it is on Medium instead."
             }
         ],
         index: 0
@@ -203,39 +203,39 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/VnUv7QP.jpg",
-                text: ""
+                text: "These are the outtakes from a photo story I did for the student publication North by Northwestern. The concept of the story was to bring exes back together and have a conversation with them. It was really interesting capturing them interacting and how it progressed throughout the photoshoot and interview." 
             },
             {
                 img: "https://i.imgur.com/ju6T28p.jpg",
-                text: ""
+                text: "\"We dated like a little more than a month.\" -Dylan"
             },
             {
                 img: "https://i.imgur.com/p40ol8q.jpg",
-                text: ""
+                text: "Favorite memory: \"Pike America.\" -Katrina"
             },
             {
                 img: "https://i.imgur.com/OeIKXJB.jpg",
-                text: ""
+                text: "\"We were out late just playing around, talking, it was cool.\" -Dylan"
             },
             {
                 img: "https://i.imgur.com/MetoHHc.jpg",
-                text: ""
+                text: "I was suprised by how amicable the exes were. It was clear they still cared about each other a lot even if things didn't work out."
             },
             {
                 img: "https://i.imgur.com/0SkzDKn.jpg",
-                text: ""
+                text: "Favorite quality: \"Dylan's happy like 100 percent of the time. And down to hang out all the time.\" -Katrina"
             },
             {
                 img: "https://i.imgur.com/i0avFQS.jpg",
-                text: ""
+                text: "\"She's so down to earth, good vibes.\" -Dylan"
             },
             {
                 img: "https://i.imgur.com/xyPYnOE.jpg",
-                text: ""
+                text: "Why did you break up: \"It was just kind of like too good at the beginning.\" -Katrina"
             },
             {
                 img: "https://i.imgur.com/7JJYGez.jpg",
-                text: ""
+                text: "\"We rushed into it. We both just king of fizzled out.\" -Dylan"
             }
         ],
         index: 0
@@ -244,7 +244,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/PemkJJq.jpg",
-                text: ""
+                text: "A series of photos taken for the final project in my photojournalism class. I met Ella through a story I wrote on Chicago Fashion Week and we have remained friends since."
             },
             {
                 img: "https://i.imgur.com/n1TncWm.jpg",
@@ -289,7 +289,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/89bXE8b.jpg",
-                text: "As photodirector for Blackboard magazine I led the direction for our Modern Panthers magazine edition. Here are the outtakes from the photoshoots. I tried to capture the empowerment of Black youth in the 21st century."
+                text: "As photodirector for Blackboard magazine I led the direction for our Modern Panthers magazine edition. I tried to capture the empowerment of Black youth in the 21st century. Here are the outtakes from the photoshoots."
             },
             {
                 img: "https://i.imgur.com/dVKGLZy.jpg",
@@ -354,7 +354,7 @@ const carousels = {
             },
             {
                 img: "https://i.imgur.com/KzDnWjX.jpg",
-                text: ""
+                text: "Home team, University of Wisconsin Oshkosh had a game against DePaul University right before NU took the field. See it play out."
             },
             {
                 img: "https://i.imgur.com/Ov83rIs.jpg",
@@ -398,15 +398,15 @@ const carousels = {
             },
             {
                 img: "https://i.imgur.com/NRCgyXv.jpg",
-                text: "Rugby is a ingury prone sport. Here a team mate helps an injured player walk off the field."
+                text: "Rugby is a ingury prone sport. Here a teammate helps an injured player walk off the field."
             },
             {
                 img: "https://i.imgur.com/qXR4mRE.jpg",
-                text: "Everyone takes a knee for the injured captain except the captain who tries to rally team spirit."
+                text: "Everyone takes a knee for the injured captain teammate except the captain who tries to rally team spirit."
             },
             {
                 img: "https://i.imgur.com/CMhA88H.jpg",
-                text: " has won. They yell \"three cheers for , three cheers for the sir \" and finally most loudly \"three cheers for \""
+                text: " Oshkosh wins 95-3. They yell \"three cheers for the sir, three cheers for DePaul,\" and finally most loudly \"three cheers for Oshkosh\""
             },
             {
                 img: "https://i.imgur.com/sIEHTXv.jpg",
