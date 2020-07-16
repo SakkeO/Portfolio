@@ -517,6 +517,14 @@ const carousels = {
                 text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
             },
             {
+                img: "https://i.imgur.com/tcJ4m63.png",
+                text: "This is the front cover I designed and illustrated of the quarter I was the creative director. Creating a magazine during a pandemic was a wild, but incredibly rewarding. Check out the print version here: issuu.com/nbnmag/docs/springmag2020final. And check out the digital version which I coded from scratch with a few team members here: northbynorthwestern.com/magazine-current"
+            },
+            {
+                img: "https://i.imgur.com/VNUR0a1.jpg",
+                text: "A feature spread about the study abroad experience for students with minority identities. I wanted to capture the feeling of being overshadowed that was a running theme across the students stories."
+            },
+            {
                 img: "https://i.imgur.com/eUQMBN0.png",
                 text: "A single page Q&A spread. Josh Mckenzie is known as that one fun administrative person on campus, so I wanted that to reflect in the style. The header style is based off of the TV show it alludes to."
             },
@@ -527,6 +535,10 @@ const carousels = {
             {
                 img: "https://i.imgur.com/DI8ghy0.jpg",
                 text: "My first feature spread. This story was about the ending of SafeRide a ride sharing program which was free to students during the evenings. This one hit close to home because for over two years my job was a driver and dispatcher for SafeRide. The program disappearing was what I wanted to as a running theme throughout the spread so there is a photoedit of the car dispersing into smoke as well as smoke pull quotes."
+            },
+            {
+                img: "https://i.imgur.com/RBtEaDu.jpg",
+                text: "This is my first stab at a data visualization design. It was a challenge trying to figure out a good way to represent the story, but eventually I landed on a more exploratory feel to the pages and have each data point be shown with a simple graphic filled to the equivalent percentage."
             },
             {
                 img: "https://i.imgur.com/fasPCzv.jpg",
