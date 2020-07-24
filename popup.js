@@ -5,7 +5,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/BbKGLiX.jpg",
-                text: "This is a multimedia story I wrote about the Chicago's rise as a global destination for fashion. I talked to designers, models, industry professional and more to create an immersive story on the cities long forgotten fashion industry."
+                text: "This is a multimedia story I wrote about Chicago's rise as a global destination for fashion. I talked to designers, models, industry professionals and more to create an immersive story on the city's long-forgotten fashion industry."
             }
         ],
         index: 0
@@ -49,7 +49,7 @@ const carousels = {
             },
             {
                 img: "https://i.imgur.com/wUKLfQN.jpg",
-                text: "The support of other students to be bold exploring themselves was a key to their sucess"
+                text: "Watching their peers be bold and explore themselves during rehearsals was key to everyone growing together and eventually putting on a very successful show."
             },
             {
                 img: "https://i.imgur.com/uyP8xDr.jpg",
@@ -514,11 +514,11 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/UzYWpNb.png",
-                text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern a magazine which publishes once a quarter."
+                text: "Here is a collection of my favorite editorial pages I have designed for the student publication North by Northwestern, a magazine which publishes once a quarter."
             },
             {
                 img: "https://i.imgur.com/tcJ4m63.png",
-                text: "This is the front cover I designed and illustrated of the quarter I was the creative director. Creating a magazine during a pandemic was a wild, but incredibly rewarding. Check out the print version here: issuu.com/nbnmag/docs/springmag2020final. And check out the digital version which I coded from scratch with a few team members here: northbynorthwestern.com/magazine-current"
+                text: "This is the front cover I designed and illustrated of the quarter I was the creative director. Creating a magazine during a pandemic was a wild, but incredibly rewarding experience. Check out the print version here: issuu.com/nbnmag/docs/springmag2020final. And check out the digital version which I coded from scratch with a few team members here: northbynorthwestern.com/magazine-current"
             },
             {
                 img: "https://i.imgur.com/VNUR0a1.jpg",
@@ -534,7 +534,7 @@ const carousels = {
             },
             {
                 img: "https://i.imgur.com/DI8ghy0.jpg",
-                text: "My first feature spread. This story was about the ending of SafeRide a ride sharing program which was free to students during the evenings. This one hit close to home because for over two years my job was a driver and dispatcher for SafeRide. The program disappearing was what I wanted to as a running theme throughout the spread so there is a photoedit of the car dispersing into smoke as well as smoke pull quotes."
+                text: "My first feature spread. This story was about the ending of SafeRide a ride sharing program that was free to students on and around campus during evenings. This one hit close to home because for over two years I was a driver and dispatcher for SafeRide as a student employee. The program disappearing was what I wanted to represent. There is a photoedit of the car dispersing into smoke as well as smoke pull quotes throughout the spread to capture this feeling of loss."
             },
             {
                 img: "https://i.imgur.com/RBtEaDu.jpg",
