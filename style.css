@@ -210,7 +210,7 @@ li+li+li+li a{
         left: 50%;
         position: absolute;
         background:#EFFF3F;
-        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        transition: width 0.4s ease 0s, left 0.3s ease 0s;
         width: 0;
       }
     nav.homepage ul li a:hover:after { 
@@ -235,7 +235,7 @@ nav.topnav {
     width: 100%;
     z-index: 1;
     margin-bottom: -100px;
-    transition: top 0.3s ease-in-out; /* Transition effect when sliding down (and up) */
+    transition: top 0.5s ease-in-out; /* Transition effect when sliding down (and up) */
 }
 nav.topnav ul {
     list-style-type: none;
@@ -245,7 +245,7 @@ nav.topnav ul {
     right: 10px;
     margin-top: -20px;
     top: 17px;
-    transition: top 0.3s ease-in-out; /* Transition effect when sliding down (and up) */
+    transition: top 0.4s ease-in-out; /* Transition effect when sliding down (and up) */
 }
 nav.topnav li {
     float: right;
@@ -331,7 +331,7 @@ nav.topnav li+li+li+li a{
         padding-top: 13px;
         top: 17px;
         right: 10px;
-        transition: top 0.3s ease-in-out; /* Transition effect when sliding down (and up) */
+        transition: top 0.4s ease-in-out; /* Transition effect when sliding down (and up) */
     }
     nav.topnav li a{
         text-align: right;
@@ -741,22 +741,22 @@ img.resize:hover{
   }
   .fa-envelope-open:hover {
     background-color:  rgba(255, 255, 255, 0.865);
-    background-image: radial-gradient( #EFFF3F, rgba(239, 255, 63, 0));
+    background-image: radial-gradient( #EFFF3F, rgba(239, 255, 63, 0.9));
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
    }
    .fa-instagram:hover {
     background-color: rgba(255, 255, 255, 0.735);
-    background-image: radial-gradient(#FF00F6, rgba(255, 0, 247, 0));
+    background-image: radial-gradient(#FF00F6, rgba(255, 0, 247, 0.9));
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
    }
    .fa-linkedin:hover {
     background-color: rgba(254, 254, 254, 0.865);
-    background-image: radial-gradient(#1DF299, rgba(29, 242, 153, 0));
+    background-image: radial-gradient(#1DF299, rgba(29, 242, 153, 0.9));
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
    }
    .fa-twitter:hover {
     background-color: rgba(255, 255, 255, 0.865);
-    background-image: radial-gradient(#2391FF, rgba(35, 145, 255, 0));
+    background-image: radial-gradient(#2391FF, rgba(35, 145, 255, 0.9));
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
    }
 
@@ -882,3 +882,46 @@ a.journalist {
     color: #1DF299;
     margin-top: 20px;
 }
+.designsubhead {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.designex {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 5px;
+}
+/* img.designex {
+    transition: transform .5s;
+}
+  
+img.designex:hover {
+    transform: scale(1.25);
+} */
+.designex2{
+    max-height: 25vw;
+    width: auto;
+    margin-bottom: 5px;
+}
+/* img.designex2 {
+    transition: transform .5s;
+}
+img.designex2:hover {
+    transform: scale(1.25);
+} */
+.portfoliovid{
+    max-width: 80%;
+    height: auto;
+    border: #FFFFFF 10px solid;
+}
+a.designlink{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    text-decoration: #FF00F6 1px underline;
+}
+

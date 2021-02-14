@@ -14,7 +14,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/LHEqOAO.png",
-                text: "A feature story written for class on Northwestern's attempts to help its students with rising mental health concerns.."
+                text: "A feature story written for class on Northwestern's attempts to help its students with rising mental health concerns."
             }
         ],
         index: 0
@@ -23,7 +23,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/pL813an.jpg",
-                text: "My first story ever published. Every quarter Blackboard magazine, Northwestern’s only Black interest publication, features a one or two students from the community in a profile piece. I was inspired by Mari’s activist spirit and wanted her story to be known campus wide. Unfortunately the website it was published on is down so the link is currently not working."
+                text: "My first story ever published. Every quarter Blackboard magazine, Northwestern’s only Black interest publication, features one or two students from the community in a profile piece. I was inspired by Mari’s activist spirit and wanted her story to be known campus wide."
             }
         ],
         index: 0
@@ -32,7 +32,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/SAUQ3gT.jpg",
-                text: "A Q&A story I wrote for Blackboard magazine's website highlighting Northwestern students Caleb and Robel Negussie, the twins from the Twin Cities, who are an up-and-coming rap duo. Unfortunately the website it was published on is currently down so here it is on Medium instead."
+                text: "A Q&A story I wrote for Blackboard magazine's website highlighting Northwestern students Caleb and Robel Negussie, the twins from the Twin Cities, who are an up-and-coming rap duo. Unfortunately, the website it was published on is currently down so here it is on Medium instead."
             }
         ],
         index: 0
@@ -496,16 +496,29 @@ const carousels = {
     photoedits: {
         slides: [
             {
+                img: "https://i.imgur.com/Ymlu1vo.jpg",
+                text: "A series of different experiments with photoshop. This photomanipulation I made to commemorate my time as the design intern at National Geographic while working remotely from home in Seattle."
+            },
+            {
                 img: "https://i.imgur.com/0QluJFN.jpg",
-                text: "A series of different experiments with photoshop. This one was just for fun because I was inspired by the headphones she was wearing."
+                text: "This photoillustration was created just for fun because I was inspired by the headphones she was wearing."
             },
             {
                 img: "https://i.imgur.com/lcj71Fy.jpg",
-                text: "This photo edit was made for a story I wrote for Blackboard magazine on the rap duo FreePlanet. The first photo I made a few days before and thought it would represent their style well."
+                text: "This photo edit was made for a story I wrote for Blackboard magazine on the rap duo FreePlanet. The previous photo I made a few days before and thought a similar style would represent FreePlanet's style well."
             },
             {
                 img: "https://i.imgur.com/eWpLOcL.jpg",
                 text: "The before and after. Made just for fun to practice some photoshop skills."
+            }
+        ],
+        index: 0
+    },
+    NG: {
+        slides: [
+            {
+                img: "https://i.imgur.com/IYpPg0g.jpg",
+                text: "This fall I spent 3 months as working at NGM as a design intern. Some of the highlights during my time there was getting the chance to design the cover to a Nat Geo Atlas, multiple print feature stories, print to web graphic conversions, and a 12-part Instagram story."
             }
         ],
         index: 0
@@ -551,7 +564,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/4JcrufV.png",
-                text: "I started a job as a graphic designer at SAM last fall. SAM's clients are basically any Northwestern entity who is looking to create marketing content targeting Northwestern students. My main duties are to manage all communications between the Norris Student Center and SAM as well as create weekly instagram content for different events occuring on campus. Here is a print campaign to advertise a winter carnival event to increase student community at Norris."
+                text: "I started a job as a graphic designer at SAM fall of my Junior year. SAM's clients are basically any Northwestern entity who is looking to create marketing content targeting Northwestern students. My main duties are to manage all communications between the Norris Student Center and SAM as well as create weekly instagram content for different events occuring on campus. Here is a print campaign to advertise a winter carnival event to increase student community at Norris."
             },
             {
                 img: "https://i.imgur.com/jpHEhvd.jpg",
