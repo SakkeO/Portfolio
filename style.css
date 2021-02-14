@@ -924,4 +924,7 @@ a.designlink{
     color: white;
     text-decoration: #FF00F6 1px underline;
 }
+a.designlink:hover{
+    color: #FF00F6;
+}
 
