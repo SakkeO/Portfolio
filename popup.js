@@ -41,7 +41,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/6m7awiV.jpg",
-                text: "These are the outtakes from a photo story I did for the student publication North by Northwestern. The goal of the story was to feature the student organization B. Burlesque, a group which produces a burlesque show annually for and by students of color."
+                text: "These are the outtakes from a photo story I did for the student publication North by Northwestern. The goal of the story was to feature the student organization B. Burlesque, a group which produces an annual burlesque show for and by Black students."
             },
             {
                 img: "https://i.imgur.com/RyppKA0.jpg",
@@ -235,7 +235,7 @@ const carousels = {
             },
             {
                 img: "https://i.imgur.com/7JJYGez.jpg",
-                text: "\"We rushed into it. We both just king of fizzled out.\" -Dylan"
+                text: "\"We rushed into it. We both just kind of fizzled out.\" -Dylan"
             }
         ],
         index: 0
@@ -350,7 +350,7 @@ const carousels = {
         slides: [
             {
                 img: "https://i.imgur.com/9LIqkxy.jpg",
-                text: "A series of photos taken for my photojournalism class. All photos were taken at a rugby tournament in Wisconsin that Northwestern played in. While I wasn't on the field I took photos of other matches. Pictured here is Northwestern coming to the field for their first match of the day."
+                text: "A series of photos taken for my photojournalism class. All photos were taken at a rugby tournament in Wisconsin that Northwestern played in. While I wasn't on the field I took photos of the other matches. Pictured here is Northwestern walking onto the field for their first match of the day."
             },
             {
                 img: "https://i.imgur.com/KzDnWjX.jpg",
@@ -402,11 +402,11 @@ const carousels = {
             },
             {
                 img: "https://i.imgur.com/qXR4mRE.jpg",
-                text: "Everyone takes a knee for the injured captain teammate except the captain who tries to rally team spirit."
+                text: "Everyone takes a knee for the injured teammate except for the captain who tries to rally team spirit."
             },
             {
                 img: "https://i.imgur.com/CMhA88H.jpg",
-                text: " Oshkosh wins 95-3. They yell \"three cheers for the sir, three cheers for DePaul,\" and finally most loudly \"three cheers for Oshkosh\""
+                text: "Oshkosh blows out Depaul in a final score of 95-3. They yell \"three cheers for the sir, three cheers for DePaul,\" and loudest of all, \"three cheers for Oshkosh.\""
             },
             {
                 img: "https://i.imgur.com/sIEHTXv.jpg",
@@ -514,6 +514,15 @@ const carousels = {
         ],
         index: 0
     },
+    RD: {
+        slides: [
+            {
+                img: "https://i.imgur.com/IYpPg0g.jpg",
+                text: "After graduating I interned at Reader's Digest for 6 months. I split my time working on the print and digital teams mostly designing front and back of book sections of the print magazine, digital photo collages, and motion graphics."
+            }
+        ],
+        index: 0
+    },
     NG: {
         slides: [
             {
@@ -593,7 +602,7 @@ const carousels = {
             },
             {
                 img: "https://i.imgur.com/5RU7KM8.png",
-                text: "Before I left I had the chance to redesign CARE's mission poster. I wanted to keep much of the same elements, but make it stand out a bit more so it can pop on a bulletin board with dozens of other fliers."
+                text: "Before I left I had the chance to redesign CARE's mission poster. I wanted to keep much of the same elements, but make it stand out a bit more so it can pop on a bulletin board with dozens of other posters and fliers."
             }
         ],
         index: 0

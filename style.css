@@ -810,12 +810,12 @@ h3.portfolio-popup{
     font-family: 'Montserrat', sans-serif;
     margin-bottom: -10px;
 }
-h2.portfolio-popup{
+h2.portfolio-popup a{
     font-family: 'Montserrat', sans-serif;
     text-transform: none;
     font-size: 16px;
     cursor: pointer;
-    color: #2391FF;
+    color: #1DF299;
 }
 h4.portfolio-popup{
     margin-top: 10px;
@@ -831,7 +831,7 @@ p.portfolio-popup{
     width: 60%;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
 }
 /* carousel pointers */
 #forward {
@@ -879,7 +879,7 @@ a.journalist {
     text-transform: none;
     font-size: 16px;
     cursor: pointer;
-    color: #1DF299;
+    color: #2391FF;
     margin-top: 20px;
 }
 .designsubhead {

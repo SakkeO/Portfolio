@@ -24,7 +24,7 @@ var animTravel = {
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'https://assets5.lottiefiles.com/packages/lf20_nu9SOF.json'
+  path: 'https://assets5.lottiefiles.com/packages/lf20_vtbqqxgv.json'
 };
 
 var anim = bodymovin.loadAnimation(animTravel);
