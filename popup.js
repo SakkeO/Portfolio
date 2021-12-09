@@ -517,7 +517,7 @@ const carousels = {
     RD: {
         slides: [
             {
-                img: "https://i.imgur.com/IYpPg0g.jpg",
+                img: "https://i.imgur.com/LL6qtvP.jpg",
                 text: "After graduating I interned at Reader's Digest for 6 months. I split my time working on the print and digital teams mostly designing front and back of book sections of the print magazine, digital photo collages, and motion graphics."
             }
         ],
