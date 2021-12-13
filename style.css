@@ -569,8 +569,8 @@ p.student{
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
   }
   #buttonthree:hover{
-    background-color: rgba(242, 101, 255, 0.44);
-    background-image: radial-gradient(#FF00F6, rgba(255, 0, 247, 0));
+    background-color: rgba(255, 227, 101, 0.44);
+    background-image: radial-gradient(#EFFF3F, rgba(255, 0, 247, 0));
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.230, 1);
   }
 
@@ -610,11 +610,11 @@ p.student{
   }
   #link5:hover{
     text-decoration: underline;
-    text-decoration-color: #FF00F6;
+    text-decoration-color: #EFFF3F;
   }
   #link6:hover{
     text-decoration: underline;
-    text-decoration-color: #FF00F6;
+    text-decoration-color: #EFFF3F;
   }
 
 

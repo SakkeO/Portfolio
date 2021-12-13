@@ -528,6 +528,19 @@ const carousels = {
             {
                 img: "https://i.imgur.com/IYpPg0g.jpg",
                 text: "This fall I spent 3 months as working at NGM as a design intern. Some of the highlights during my time there was getting the chance to design the cover to a Nat Geo Atlas, multiple print feature stories, print to web graphic conversions, and a 12-part Instagram story."
+            },
+            {
+                img: "https://i.imgur.com/IYpPg0g.jpg",
+                text: "Tfewfhaweofh"
+            }
+        ],
+        index: 0
+    },
+    UX: {
+        slides: [
+            {
+                img: "https://i.imgur.com/HDuhD7F.jpg",
+                text: "The final project for my magazine design class was to turn a magazine story into a prototype of an interactive story consumable on a mobile device. I used Adobe XD to create the final product. Watch the demo below."
             }
         ],
         index: 0
@@ -540,7 +553,7 @@ const carousels = {
             },
             {
                 img: "https://i.imgur.com/tcJ4m63.png",
-                text: "This is the front cover I designed and illustrated of the quarter I was the creative director. Creating a magazine during a pandemic was a wild, but incredibly rewarding experience. Check out the print version here: issuu.com/nbnmag/docs/springmag2020final. And check out the digital version which I coded from scratch with a few team members here: northbynorthwestern.com/magazine-current"
+                text: "This is the front cover I designed and illustrated during the quarter I was the creative director. Creating a magazine during a pandemic was a wild, but incredibly rewarding experience. Check out the print version here: issuu.com/nbnmag/docs/springmag2020final. And check out the digital version which I coded from scratch with a few team members here: northbynorthwestern.com/magazine-current"
             },
             {
                 img: "https://i.imgur.com/VNUR0a1.jpg",
@@ -636,6 +649,16 @@ const carousels = {
         ],
         index: 0
     },
+    Freelance: {
+        slides: [
+            {
+                img: "https://i.imgur.com/tvawsYt.jpg",
+                text: "Coming Soon"
+            },
+        ],
+        index: 0
+    },
+
     NURJ: {
         slides: [
             {
